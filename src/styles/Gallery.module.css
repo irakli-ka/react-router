@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(0deg, rgba(5, 0, 150, 0.7) 70%, rgba(0, 43, 164, 0.78) 100%);
+}
+
+.card {
+  border: 1px solid rgba(0, 43, 164, 0.78);
+  border-radius: 5px;
+  overflow: hidden;
+  width: 350px;
+  height: 350px;
+  text-align: center;
+  background-color: rgba(182, 162, 228, 0.59);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  padding: 10px;
+}
+
+.title {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}

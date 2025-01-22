@@ -1,0 +1,43 @@
+.hero {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  box-sizing: border-box;
+  background-image: url('src/assets/mountains.png');
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+.h1 {
+  font-size: 60px;
+  margin: 0;
+  margin-bottom: 20px;
+  margin-top: -240px;
+  background: linear-gradient(0deg, rgba(0, 7, 81, 0.84) 0%, rgba(74, 104, 255, 0.6) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: rgba(167, 131, 197, 0.8);
+  background: linear-gradient(300deg, rgba(0, 8, 64, 0.4) 0%, rgba(0, 42, 196, 0.71) 100%);
+  color: #00033A;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background: linear-gradient(300deg, rgba(0, 42, 196, 0.71) 0%, rgba(0, 8, 64, 0.4) 100%);
+  color: #fff;
+}
