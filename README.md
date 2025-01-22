@@ -2,4 +2,4 @@
 
 demo
 
-![demo](https://i.imgur.com/WGgaacr.gif)
+![part one](https://i.imgur.com/Y73AdFN.gif)
