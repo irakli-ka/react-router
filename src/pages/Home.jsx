@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className={styles.hero}>
       <h1 className={styles.h1}>Welcome To The Home Page</h1>
-      <button className={styles.button} onClick={() => navigate('/react-router/gallery')}>
+      <button className={styles.button} onClick={() => navigate('/gallery')}>
         Go To Gallery
       </button>
     </div>

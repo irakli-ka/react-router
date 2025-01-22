@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router';
+import { HashRouter as Router, Routes, Route } from 'react-router';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -12,10 +12,10 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/react-router" element={<Home />} />
-        <Route path="/react-router/gallery" element={<Gallery />} />
-        <Route path="/react-router/profile" element={<Profile />} />
-        <Route path="/react-router/profile/:name" element={<Profile />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/profile/:name" element={<Profile />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
       <Footer />

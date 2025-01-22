@@ -4,9 +4,9 @@ import { Link } from 'react-router';
 const Navbar = () => {
   return (
     <nav className={styles.navbar}>
-      <Link to="/react-router/" className={styles.navLink}>Home</Link>
-      <Link to="/react-router/gallery/" className={styles.navLink}>Gallery</Link>
-      <Link to="/react-router/profile/" className={styles.navLink}>Profile</Link>
+      <Link to="/" className={styles.navLink}>Home</Link>
+      <Link to="/gallery" className={styles.navLink}>Gallery</Link>
+      <Link to="/profile" className={styles.navLink}>Profile</Link>
     </nav>
   );
 };
