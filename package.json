@@ -2,6 +2,7 @@
   "name": "react-router",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://irakli-ka.github.io/react-router",
   "type": "module",
   "scripts": {
     "dev": "vite",
