@@ -6,7 +6,7 @@ import Gallery from './pages/Gallery';
 import Profile from './pages/Profile';
 import ErrorPage from './pages/ErrorPage';
 import './App.css';
-
+// hash router-ის გარეშე არ მუშაობს ნორმალურად gh-pages-ზე
 function App() {
   return (
     <Router>
